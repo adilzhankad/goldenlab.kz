@@ -148,8 +148,7 @@ location.href = urls_3[this.value];
 
           <div class="btn-close"></div>
       </nav> -->
-
-
+      <div id="wrapper" class="wrapper">    <section class="intro" id="intro">
 
       <div class="container">
 
@@ -183,6 +182,22 @@ location.href = urls_3[this.value];
             </div><!-- /Hamburger Menu -->
         </div>
 
+        <img class="str1_image" src="src/Subtract (1).svg" alt="image" class="intro__image d-none d-lg-block">
+        <style>
+          .str1_image{
+            position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    max-width: calc(100% - 30px);
+    z-index: 0;
+    object-position: top;
+          }
+        </style>
         <img src="wp-content/uploads/2023/08/intro_sm.png" alt="image" class="intro__image d-block d-lg-none">
         <div class="intro__top">
             <a href="/" class="intro__logo d-none d-lg-block">
@@ -227,7 +242,39 @@ location.href = urls_3[this.value];
 
 
         </div>
+        <div class="intro__bottom">
+            <div class="intro__offer d-none d-lg-flex">
+                <h1 class="intro__title">
+                    Создаем уникальные детские игровые площадки, которые увеличивают прибыль на 30%                        </h1>
+                <p class="intro__descr">
+                    Добро пожаловать на первый казахстанский завод детских игровых площадок!                        </p>
+                <a href="https://wa.me/message/X6RRPXCZV545I1" class="btn intro__btn" target="_blank">
+                    <img src="wp-content/themes/goldenlab/assets/img/intro/btn.svg" alt="arrow" class="btn__arrow">
+                    <span class="btn__text">
+                        Связаться с менеджером                            </span>
+                </a>
+            </div>
+            <div class="intro__action-wrapper" data-aos="zoom-in-up">
+                <div class="intro__action">
+                    <div class="intro__action-inner">
+                        <div class="intro__action-content">
+                            <img src="wp-content/themes/goldenlab/assets/img/intro/questions.svg" alt="icon" class="intro__action-img">
+                            <span class="intro__action-title">
+                                Оставьте заявку                                    </span>
+                            <p class="intro__action-text">
+                                Свяжитесь с менеджером                                    </p>
+                            <button class="intro__action-btn btn" data-toggle="modal" data-target="#modal-order">
+                                Написать менеджеру                                    </button>
+                        </div>
+                    </div>
 
+                    <div class="intro__action-medium"></div>
+                    <div class="intro__action-sm"></div>
+                </div>
+
+            </div>
+
+        </div>
         <div class="intro__offer d-flex d-lg-none">
             <h1 class="intro__title">
                 Создаем уникальные детские игровые площадки, которые увеличивают прибыль на 30%                    </h1>

@@ -390,6 +390,8 @@ section,
 summary {
   display: block;
 }
+
+
 audio,
 canvas,
 progress,
@@ -45707,13 +45709,7 @@ a.u-link.u-text-hover-color-var:hover {
         margin-bottom: 20px;
         line-height: 1.6;
         }
-        ul:not(.u-unstyled)
-        {
-        font-size: 1.125rem;
-        margin-top: 20px;
-        margin-bottom: 20px;
-        line-height: 1.6;
-        }
+
         ol
         {
         font-size: 1.125rem;
@@ -46141,6 +46137,15 @@ a.u-link.u-text-hover-color-var:hover {
   .u-footer .u-text-1 {
     width: 340px;
   }
+
+
+  ul:not(.u-unstyled) {
+    font-size: 1.125rem;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: 1.6;
+  }
+  
 }
 
  /*begin-variables base-font-size*/ 

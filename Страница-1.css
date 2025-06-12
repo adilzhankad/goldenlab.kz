@@ -1447,3 +1447,20 @@
 }.u-section-10 .u-sheet-1 {
   min-height: 400px;
 }
+
+
+
+
+#str1_image{
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  max-width: calc(100% - 30px);
+  z-index: 0;
+  object-position: top;
+}
