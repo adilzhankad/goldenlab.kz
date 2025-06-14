@@ -538,8 +538,10 @@
 
 .u-section-4 .u-image-1 {
   min-height: 351px;
-  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url('images/photo-1630139026569-0cdfbd9cee4e.jpeg');
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url('src/photo_2025-06-13_14-04-31-Photoroom.png');
   background-position: 50% 50%;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 .u-section-4 .u-container-layout-1 {
@@ -551,10 +553,16 @@
 }
 
 .u-section-4 .u-image-2 {
-  min-height: 349px;
-  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url('images/photo-1513240794845-9add4d6a3b5e.jpeg');
-  background-position: 50% 50%;
+  min-height: 369px;
+
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), 
+    url('src/photo_2025-06-13_14-04-31 (2)-Photoroom.png');
+
+  background-position: 50% 55%;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
+
 
 .u-section-4 .u-container-layout-2 {
   padding: 30px 60px 20px;
@@ -939,7 +947,7 @@
 
 .u-section-7 .u-image-1 {
   min-height: 510px;
-  background-image: url("images/photo-1552537595-b30edb7afd9d.jpeg");
+  background-image: url("src/photo_2025-06-13_14-04-30-Photoroom.png");
   background-position: 50% 50%;
 }
 
@@ -949,9 +957,12 @@
 
 .u-section-7 .u-image-2 {
   min-height: 510px;
-  background-image: url("images/photo-1589863008985-e7084c00e272.jpeg");
-  background-position: 50% 50%;
+  background-image: url("src/photo_2025-06-13_14-04-34-Photoroom.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
 }
+
 
 .u-section-7 .u-container-layout-2 {
   padding: 30px 50px;
@@ -959,8 +970,10 @@
 
 .u-section-7 .u-image-3 {
   min-height: 510px;
-  background-image: url("images/photo-1579231847384-9de04c6c0e36.jpeg");
+  background-image: url("src/photo_2025-06-13_14-04-30\ \(2\)-Photoroom.png");
   background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 
 .u-section-7 .u-container-layout-3 {
@@ -1248,8 +1261,10 @@
 
 .u-section-9 .u-image-1 {
   min-height: 423px;
-  background-image: url("images/photo-1596997000103-e597b3ca50df.jpeg");
+  background-image: url("src/photo_2025-06-13_14-04-29-Photoroom.png");
   background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 
 .u-section-9 .u-container-layout-1 {
@@ -1258,8 +1273,10 @@
 
 .u-section-9 .u-image-2 {
   min-height: 210px;
-  background-image: url("images/photo-1572429075456-b55524cc16e3.jpeg");
+  background-image: url("src/photo_2025-06-13_14-04-34\ \(3\)-Photoroom.png");
   background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 
 .u-section-9 .u-container-layout-2 {
@@ -1296,8 +1313,10 @@
 
 .u-section-9 .u-image-3 {
   min-height: 210px;
-  background-image: url("images/photo-1556863402-b5d84ed0b6d5.jpeg");
+  background-image: url("src/photo_2025-06-13_14-04-34\ \(2\)-Photoroom.png");
   background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 
 .u-section-9 .u-container-layout-5 {
@@ -1306,8 +1325,9 @@
 
 .u-section-9 .u-image-4 {
   min-height: 423px;
-  background-image: url("images/photo-1551398766-dd525d7c6175.jpeg");
+  background-image: url("src/photo_2025-06-13_14-04-34\ \(4\)-Photoroom.png");
   background-position: 50% 50%;
+  
 }
 
 .u-section-9 .u-container-layout-6 {
